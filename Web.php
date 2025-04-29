@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stránka</title>
+  <title>stránka v PHP</title>
   <style>
     body {
       margin: 0;
@@ -38,20 +38,20 @@
 </head>
 <body>
   <div class="container">
-    <h1>Nadpis 1</h1>
-    <p>úvodní text, idrc gng atm so this will be empty for some time.</p>
+    <h1><?php echo "Nadpis 1"; ?></h1>
+    <p><?php echo "Toto je úvodní text, frfr"; ?></p>
     <hr>
 
-    <h2>Nadpis 2</h2>
-    <p>D více informací. ts pmo ngl.</p>
+    <h2><?php echo "Nadpis 2"; ?></h2>
+    <p><?php echo "dalsi info etc."; ?></p>
     <hr>
 
-    <h2>Nadpis 3</h2>
-    <p> další obsah podle potřeby. >.< </p>
+    <h2><?php echo "Nadpis 3"; ?></h2>
+    <p><?php echo "idk gng, ts pmo tho"; ?></p>
     <hr>
 
-    <h2>Nadpis 4</h2>
-    <p>Moderní tmavý design je oblíbený pro svou eleganci a šetrnost k očím v nočním režimu.</p>
+    <h2><?php echo "Nadpis 4"; ?></h2>
+    <p><?php echo "uhhhhh"; ?></p>
   </div>
 </body>
 </html>
